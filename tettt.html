@@ -298,12 +298,6 @@ document.addEventListener('keydown', function(e) {
      downOne();
   }
 
-  
-  // space key (fast drop)
-  if(e.which === 32) {
-     while(!downOne()){
-     }
-  }
   //хак: след фигура меняем на 'I', 'J', 'L', 'O', 'S', 'T', 'Z'
   if(e.which === 'I'.charCodeAt()) {
      while(tetrominoNext.name!='I'){
